@@ -18,3 +18,5 @@
     - composer
     - phpcommon
     - app
+    # https://github.com/FloeDesignTechnologies/ansible-drush
+    - drush

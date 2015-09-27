@@ -5,14 +5,15 @@ Original files from phansible.com
 Todo
 ----
 
-- Add drush
+- Add drush to path
 - create machine with jenkins
 - create machine with solr
 
 Requirements on host
 --------------------
 
-- ansible >= 1.6
+- ansible >= 1.8 ([How to install out of repositories](http://docs.ansible.com/ansible/intro_installation.html))
+  - Minimum version upped from 6 to 8 due to drush module.
 - vagrant >= 1.5
 - virtualbox
 - nfsd (nfs-kernel-server)
