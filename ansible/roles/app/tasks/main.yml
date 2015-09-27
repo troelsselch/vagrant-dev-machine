@@ -1,2 +1,5 @@
 ---
 # application tasks to be customized and to run after the main provision
+
+# Add drush to PATH
+- file: src=/home/vagrant/.composer/vendor/drush/drush/drush dest=/usr/local/bin/drush owner=vagrant group=vagrant state=link
