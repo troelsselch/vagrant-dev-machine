@@ -5,7 +5,6 @@ Original files from phansible.com
 Todo
 ----
 
-- Add drush to path
 - create machine with jenkins
 - create machine with solr
 
