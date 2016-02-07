@@ -7,6 +7,9 @@ Todo
 
 - create machine with jenkins
 - create machine with solr
+- Skip creating databses - this is pretty manuel, since it could require and empty db or an import of a dump
+  or import db if there is a dump named the same as the sitename
+- php code sniffer and drupal standard.
 
 Requirements on host
 --------------------
@@ -23,7 +26,7 @@ Requirements on host
 Optional
 --------
 
-- Add `192.168.33.10	myapp.loc` to `/etc/hosts`.
+- Add `192.168.33.10	dev.loc` to `/etc/hosts`.
 
 Running
 -------
@@ -36,6 +39,6 @@ Running
 Working with the environment
 ----------------------------
 
-- Put your files in ./www. This will be Apaches document root.
-- Access your site with 192.168.33.10 or (optionally) http://myapp.loc
+- Put your files in ./sites/<sitename>. This will be Apaches document root.
+- Access your site with 192.168.33.10 or (optionally) http://dev.loc
 - MariaDB credentials: See (and optionally update) `./ansible/vars/mariadb.yml`
