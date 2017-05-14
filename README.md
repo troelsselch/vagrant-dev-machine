@@ -10,6 +10,8 @@ Todo
 - Skip creating databses - this is pretty manuel, since it could require and empty db or an import of a dump
   or import db if there is a dump named the same as the sitename
 - php code sniffer and drupal standard.
+- apt-get install php-apc
+- install unzip - used by drush-make
 
 Requirements on host
 --------------------
