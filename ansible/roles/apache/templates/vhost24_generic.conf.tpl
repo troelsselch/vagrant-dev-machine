@@ -1,3 +1,5 @@
+SetEnv LOC_DEV 1
+
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
     DocumentRoot /vagrant/sites
